@@ -20,9 +20,17 @@ const Header = () => {
           </div>
       </div>
       <div className='header__right'>
-        
+        <div className="header__rightLogoContainer">
+          <i class="fas fa-crown"></i>
+          <i class="fas fa-inbox"></i>
+          <i class="fas fa-comment-alt"></i>
+        <div className="header__rightBits">
+          <i class="fas fa-gem"></i>
+          <h4>Get Bits</h4>
+        </div>
       </div>
     </div>
+  </div>
   )
 }
 
