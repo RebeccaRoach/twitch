@@ -20,3 +20,16 @@
   height: 3rem;
   margin-left: 20px;
 }
+
+.header__left>h2{
+  margin: 15px;
+}
+
+.header__verticalLine{
+  border-left: 1px solid #4a4a4c;
+  height: 3rem;
+}
+
+.header_left>i{
+  margin-left: 15px;
+}
