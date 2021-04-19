@@ -1,19 +1,21 @@
 import React from "react";
-import FemaleIcon from './female_icon.png'
 
+import Channel from './Channel'
 
-const SideBar = () => {
+const SideBar = () =>
+{
+
  return (
    <div className="sidebar">
     <h5>FOLLOWED CHANNELS</h5>
-    <Channel avatar={FemaleIcon} name="female Icon" followers="800K"/>
+    {/* <Channel avatar={FemaleIcon} name="female Icon" followers="800K"/> */}
     <Channel
-      avatar='https://avatars.alphacoders.com/avatars/view/114469'
+      avatar='https://yt3.ggpht.com/ytc/AAUvwniwccxGvXvGzzwka5f73aPbmdxvEX4G_cUd7TEzkw=s68-c-k-c0x00ffffff-no-rj'
       name="catAvatar"
       followers="200k"
     />
      <h5>RECOMMENDED CHANNELS</h5>
-     <Channel/> // insta
+     <Channel/>
     <p className='sidebar_topShowMore'>Show More</p>
    </div>
  )
