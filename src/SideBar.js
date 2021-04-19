@@ -1,23 +1,35 @@
 import React from "react";
 
-import Channel from './Channel'
+import Channel from "./Channel";
 
-const Sidebar = () =>
-{
- return (
-   <div className="sidebar">
-    <h5>FOLLOWED CHANNELS</h5>
-    {/* <Channel avatar={FemaleIcon} name="female Icon" followers="800K"/> */}
-    <Channel
-      avatar='https://yt3.ggpht.com/ytc/AAUvwniwccxGvXvGzzwka5f73aPbmdxvEX4G_cUd7TEzkw=s68-c-k-c0x00ffffff-no-rj'
-      name="catAvatar"
-      followers="200k"
-    />
-     <h5>RECOMMENDED CHANNELS</h5>
-     <Channel/>
-    <p className='sidebar_topShowMore'>Show More</p>
-   </div>
- )
-}
+import "./Sidebar.css";
 
-export default Sidebar
+
+const Sidebar = () => {
+  return (
+    <div className="sidebar">
+      <div className="sidebar__top">
+        <h5>FOLLOWED CHANNELS</h5>
+        <Channel avatar="https://avatars.githubusercontent.com/u/22301035?s=60&v=4"
+          name="Becca Twitchers"
+            followers="1K"
+        />
+        <Channel
+          avatar="https://avatars.githubusercontent.com/u/57575225?s=60&v=4"
+          name="Shonda860"
+          followers="8k"
+        />
+        <h5>RECOMMENDED CHANNELS</h5>
+        <Channel />
+        <p className="sidebar_topShowMore">Show More</p>
+      </div>
+      <div className="sidebar__bottom">
+        <div className="sidebar__bottomContainer">
+          <i className="fas fa-search"></i>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Sidebar;
