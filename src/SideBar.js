@@ -2,9 +2,8 @@ import React from "react";
 
 import Channel from './Channel'
 
-const SideBar = () =>
+const Sidebar = () =>
 {
-
  return (
    <div className="sidebar">
     <h5>FOLLOWED CHANNELS</h5>
@@ -21,4 +20,4 @@ const SideBar = () =>
  )
 }
 
-export default SideBar
+export default Sidebar
