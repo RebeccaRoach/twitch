@@ -1,11 +1,12 @@
 import React from 'react';
 import './Channel.css'
 
-const Channel = ({avatar,name,followers}) => {
+const Channel = ({ avatar, name, followers }) => {
   return (
     <div className="channel">
       <div className="channel__details">
-        <img src="" alt="" />
+        <img src={avatar} alt="avatar" />
+        <p>{name}</p>
       </div>
     </div>
   )
