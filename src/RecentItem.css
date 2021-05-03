@@ -1,0 +1,19 @@
+.item {
+    flex-direction: column;
+    display: flex;
+    margin-right: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 400px;
+}
+
+.item__details {
+    display: flex;
+    margin-top: 25px;
+}
+
+.item__details>img {
+    object-fit: contain;
+    height: 60px;
+    margin-right: 10px;
+}
