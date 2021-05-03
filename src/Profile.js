@@ -1,5 +1,6 @@
 import React from 'react';
 import './Profile.css';
+import RecentItem from './RecentItem';
 
 
 const Profile = () => {
@@ -29,7 +30,24 @@ const Profile = () => {
             </div> 
             <div className="profile__recent">
                 <h2>Recent Broadcasts</h2>
-                <div className="profile_recentItems"></div>
+                <div className="profile_recentItems">
+                    <RecentItem
+                        url={'https://youtube.com/embed/ktjafK4SgWM'}
+                        title={'Learn the MERN stack'}
+                    />
+                    <RecentItem
+                        url={'https://youtube.com/embed/DFzP6gA0tkQ'}
+                        title={'How to earn $1000 as a freelance developer in 30 days'}
+                    />
+                    <RecentItem
+                        url={'https://youtube.com/embed/l1yXs-7RU5E'}
+                        title={"Let's Build an Alexa Skill in 2020"}
+                    />
+                    <RecentItem
+                        url={'https://youtube.com/embed/5NlVMTYGlwg'}
+                        title={"It's time to learn React 2.0"}
+                    />
+                </div>
             </div>
         </div>
     )
