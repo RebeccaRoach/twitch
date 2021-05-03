@@ -15,7 +15,7 @@
 }
 
 .profile__topLeft>img {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #35353a;
     border-radius: 50%;
     height: 100px;
     margin: 40px;
@@ -23,3 +23,43 @@
     padding: 3px;
 }
 
+.profile__topRight {
+    font-size: 30px;
+}
+
+.profile__topRight>i {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 40px;
+    text-align: center;
+}
+
+.profile__topRight>.graybg {
+    background-color: #35353a;
+}
+.profile__topRight>.graybg {
+    background-color: #35353a;
+}
+
+.profile__menu {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+
+.profile__menu>h2 {
+    cursor: pointer;
+    margin-right: 15px;  
+}
+.profile__menu>h2>i {
+    margin-right: -5px;
+    transform: rotate(45deg);
+}
+
+.profile__menu>.active {
+    border-bottom: 5px solid #a970ff;
+    padding-bottom: 10px;
+    
+}
